@@ -1,4 +1,4 @@
-package com.testcase;
+package test.java.com.testcase;
 
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
@@ -14,7 +14,7 @@ public class LoginTest {
         System.out.println(dataMap.get("login"));
     }
 
-    @Nested
+    @Nested//执行方式，倒序的方式，先执行的后面的类中的方法
     class PayTest{
         @Test
         void payTest(){
