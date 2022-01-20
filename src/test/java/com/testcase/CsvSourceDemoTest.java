@@ -1,4 +1,4 @@
-package test.java.com.testcase;
+package com.testcase;
 
 
 import org.junit.jupiter.params.ParameterizedTest;
